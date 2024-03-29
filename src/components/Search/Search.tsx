@@ -34,7 +34,7 @@ const Search: FC<Props> = ({
     <section className='bg-tertiary-light px-4 py-6 rounded-lg'>
       <div className='container mx-auto flex gap-4 flex-wrap justify-between items-center'>
         <div className='w-full md:1/3 lg:w-auto mb-4 md:mb-0'>
-          <label className='block text-sm font-medium mb-2 text-black'>
+          <label  htmlFor='review' className='block text-sm font-medium mb-2 text-black'>
             Room Type
           </label>
           <div className='relative'>
@@ -52,7 +52,7 @@ const Search: FC<Props> = ({
         </div>
 
         <div className='w-full md:1/3 lg:w-auto mb-4 md:mb-0'>
-          <label className='block text-sm font-medium mb-2 text-black'>
+          <label  htmlFor='review' className='block text-sm font-medium mb-2 text-black'>
             Search
           </label>
           <input
