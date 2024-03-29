@@ -6,8 +6,8 @@ const defineFieldWithType = (
   name: string,
   title: string,
   type: string,
-  options: FieldOptions = {},
-  validation: ValidationFunction
+  validation: ValidationFunction,
+  options: FieldOptions = {}
 ) =>
   defineField({
     name,
@@ -26,22 +26,21 @@ const review = {
       'user',
       'User',
       'reference',
-      { to: [{ type: 'user' }] },
-      Rule => Rule.required()
+      Rule => Rule.required(),
+      { to: [{ type: 'user' }] }
     ),
     defineFieldWithType(
       'hotelRoom',
       'Hotel Room',
       'reference',
-      { to: [{ type: 'hotelRoom' }] },
-      Rule => Rule.required()
+      Rule => Rule.required(),
+      { to: [{ type: 'hotelRoom' }] }
     ),
-    defineFieldWithType('text', 'Review Text', 'text', {}, Rule => Rule.required()),
+    defineFieldWithType('text', 'Review Text', 'text', Rule => Rule.required()),
     defineFieldWithType(
       'userRating',
       'User Rating',
       'number',
-      {},
       Rule =>
         Rule.required().min(1).max(5).error('Rating must be between 1 and 5')
     ),
