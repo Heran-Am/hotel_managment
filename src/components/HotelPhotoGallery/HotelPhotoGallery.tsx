@@ -8,7 +8,9 @@ const HotelPhotoGallery: FC<{ photos: ImageType[] }> = ({ photos }) => {
   const [showModal, setShowModal] = useState(false);
 
   const openModal = (index: number) => {
-    setShowModal(true);
+  setShowModal(prevState => !prevState);
+};
+
   };
 
   const closeModal = () => setShowModal(false);
