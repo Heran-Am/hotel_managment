@@ -1,9 +1,4 @@
-type CoverImage = {
-  url: string;
-};
-
-export type Image = {
-  _key: string;
+type ImageUrl = {
   url: string;
 };
 
@@ -20,11 +15,11 @@ type Slug = {
 
 export type Room = {
   _id: string;
-  coverImage: CoverImage;
+  coverImage: ImageUrl; // Reusing ImageUrl type here
   description: string;
   dimension: string;
   discount: number;
-  images: Image[];
+  images: (ImageUrl & { _key: string })[]; // Reusing ImageUrl type here
   isBooked: boolean;
   isFeatured: boolean;
   name: string;
