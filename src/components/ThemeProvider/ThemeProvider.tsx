@@ -1,4 +1,3 @@
-'use client';
 import { useEffect, useState, useMemo } from 'react';
 import ThemeContext from '@/context/themeContext';
 
@@ -12,9 +11,11 @@ const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     setRenderComponent(true);
   }, []);
 
-  if (!renderComponent) return <></>;
+  const contextValue = useMemo(() => {
+    return { darkTheme, setDarkTheme };
+  }, [darkTheme, setDarkTheme]); // useMemo should be called unconditionally
 
-  const contextValue = useMemo(() => ({ darkTheme, setDarkTheme }), [darkTheme, setDarkTheme]);
+  if (!renderComponent) return <></>;
 
   return (
     <ThemeContext.Provider value={contextValue}>
