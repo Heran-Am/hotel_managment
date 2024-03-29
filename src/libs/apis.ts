@@ -135,7 +135,7 @@ export async function checkReviewExists(
 
   const result = await sanityClient.fetch(query, params);
 
-  return result ? result : null;
+  return;
 }
 
 export const updateReview = async ({
