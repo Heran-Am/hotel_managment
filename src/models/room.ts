@@ -1,4 +1,5 @@
 type ImageUrl = {
+  _key: string;
   url: string;
 };
 
@@ -19,7 +20,7 @@ export type Room = {
   description: string;
   dimension: string;
   discount: number;
-  images: (ImageUrl & { _key: string })[]; // Reusing ImageUrl type here
+  images: ImageUrl[]; // Reusing ImageUrl type here
   isBooked: boolean;
   isFeatured: boolean;
   name: string;
