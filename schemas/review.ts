@@ -1,27 +1,11 @@
 import { defineField } from 'sanity';
 
-const defineReferenceField = (name, title, to, validation) =>
+const defineFieldWithType = (name, title, type, options = {}, validation) =>
   defineField({
     name,
     title,
-    type: 'reference',
-    to,
-    validation,
-  });
-
-const defineTextField = (name, title, validation) =>
-  defineField({
-    name,
-    title,
-    type: 'text',
-    validation,
-  });
-
-const defineNumberField = (name, title, validation) =>
-  defineField({
-    name,
-    title,
-    type: 'number',
+    type,
+    ...options,
     validation,
   });
 
@@ -30,21 +14,28 @@ const review = {
   title: 'Review',
   type: 'document',
   fields: [
-    defineReferenceField(
+    defineFieldWithType(
       'user',
       'User',
-      [{ type: 'user' }],
+      'reference',
+      { to: [{ type: 'user' }] },
       Rule => Rule.required()
     ),
-    defineReferenceField(
+    defineFieldWithType(
       'hotelRoom',
       'Hotel Room',
-      [{ type: 'hotelRoom' }],
+      'reference',
+      { to: [{ type: 'hotelRoom' }] },
       Rule => Rule.required()
     ),
-    defineTextField('text', 'Review Text', Rule => Rule.required()),
-    defineNumberField('userRating', 'User Rating', Rule =>
-      Rule.required().min(1).max(5).error('Rating must be between 1 and 5')
+    defineFieldWithType('text', 'Review Text', 'text', {}, Rule => Rule.required()),
+    defineFieldWithType(
+      'userRating',
+      'User Rating',
+      'number',
+      {},
+      Rule =>
+        Rule.required().min(1).max(5).error('Rating must be between 1 and 5')
     ),
   ],
 };
