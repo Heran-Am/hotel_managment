@@ -1,8 +1,4 @@
-import { defineField } from 'sanity';
-
-interface FieldOptions {
-  to?: { type: string }[];
-}
+import { defineField, FieldOptions } from 'sanity';
 
 type ValidationFunction = (Rule: any) => any; // Adjust the type according to your validation rule
 
