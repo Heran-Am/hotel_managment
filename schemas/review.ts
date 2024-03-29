@@ -1,12 +1,24 @@
 import { defineField } from 'sanity';
 
-const defineFieldWithType = (name, title, type, options = {}, validation) =>
+interface FieldOptions {
+  to?: { type: string }[];
+}
+
+type ValidationFunction = (Rule: any) => any; // Adjust the type according to your validation rule
+
+const defineFieldWithType = (
+  name: string,
+  title: string,
+  type: string,
+  options: FieldOptions = {},
+  validation: ValidationFunction
+) =>
   defineField({
     name,
     title,
     type,
     validation,
-    ...options, // Moving options after validation
+    ...options,
   });
 
 const review = {
