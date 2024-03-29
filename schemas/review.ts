@@ -1,37 +1,51 @@
 import { defineField } from 'sanity';
 
+const defineReferenceField = (name, title, to, validation) =>
+  defineField({
+    name,
+    title,
+    type: 'reference',
+    to,
+    validation,
+  });
+
+const defineTextField = (name, title, validation) =>
+  defineField({
+    name,
+    title,
+    type: 'text',
+    validation,
+  });
+
+const defineNumberField = (name, title, validation) =>
+  defineField({
+    name,
+    title,
+    type: 'number',
+    validation,
+  });
+
 const review = {
   name: 'review',
   title: 'Review',
   type: 'document',
   fields: [
-    defineField({
-      name: 'user',
-      title: 'User',
-      type: 'reference',
-      to: [{ type: 'user' }],
-      validation: Rule => Rule.required(),
-    }),
-    defineField({
-      name: 'hotelRoom',
-      title: 'Hotel Room',
-      type: 'reference',
-      to: [{ type: 'hotelRoom' }],
-      validation: Rule => Rule.required(),
-    }),
-    defineField({
-      name: 'text',
-      title: 'Review Text',
-      type: 'text',
-      validation: Rule => Rule.required(),
-    }),
-    defineField({
-      name: 'userRating',
-      title: 'User Rating',
-      type: 'number',
-      validation: Rule =>
-        Rule.required().min(1).max(5).error('Rating must be between 1 and 5'),
-    }),
+    defineReferenceField(
+      'user',
+      'User',
+      [{ type: 'user' }],
+      Rule => Rule.required()
+    ),
+    defineReferenceField(
+      'hotelRoom',
+      'Hotel Room',
+      [{ type: 'hotelRoom' }],
+      Rule => Rule.required()
+    ),
+    defineTextField('text', 'Review Text', Rule => Rule.required()),
+    defineNumberField('userRating', 'User Rating', Rule =>
+      Rule.required().min(1).max(5).error('Rating must be between 1 and 5')
+    ),
   ],
 };
 
