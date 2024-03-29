@@ -6,7 +6,6 @@ import { MdCancel } from 'react-icons/md';
 
 const HotelPhotoGallery: FC<{ photos: ImageType[] }> = ({ photos }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
   const [showModal, setShowModal] = useState(false);
 
   const openModal = (index: number) => {
@@ -17,13 +16,13 @@ const HotelPhotoGallery: FC<{ photos: ImageType[] }> = ({ photos }) => {
   const closeModal = () => setShowModal(false);
 
   const handlePrevious = () => {
-    setCurrentIndex(prevIndex =>
+    setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? photos.length - 1 : prevIndex - 1
     );
   };
 
   const handleNext = () => {
-    setCurrentIndex(prevIndex =>
+    setCurrentIndex((prevIndex) =>
       prevIndex === photos.length - 1 ? 0 : prevIndex + 1
     );
   };
@@ -33,7 +32,6 @@ const HotelPhotoGallery: FC<{ photos: ImageType[] }> = ({ photos }) => {
 
   return (
     <div className='container mx-auto'>
-      {/* Your JSX code */}
       {displayPhotos.map((photo, index) => (
         <div key={index} className='cursor-pointer h-64 rounded-2xl overflow-hidden'>
           <Image
