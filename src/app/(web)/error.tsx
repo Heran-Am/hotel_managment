@@ -1,6 +1,6 @@
 'use client';
 
-export default function Error({
+export default function ErrorComponent({
   error,
   reset,
 }: {
