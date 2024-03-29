@@ -5,8 +5,8 @@ const defineFieldWithType = (name, title, type, options = {}, validation) =>
     name,
     title,
     type,
-    ...options,
     validation,
+    ...options, // Moving options after validation
   });
 
 const review = {
