@@ -8,7 +8,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { MdCancel } from 'react-icons/md';
 
 const HotelPhotoGallery: FC<{ photos: ImageType[] }> = ({ photos }) => {
-  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
+  const [currentPhotoIndex, setCurrentPhotoIndex] = useState();
   const [showModal, setShowModal] = useState(false);
 
   const openModal = (index: number) => {
@@ -88,7 +88,7 @@ const HotelPhotoGallery: FC<{ photos: ImageType[] }> = ({ photos }) => {
           {remainingPhotosCount > 0 && (
             <div
               className='cursor-pointer relative h-64 rounded-2xl overflow-hidden'
-              onClick={() => openModal(maximumVisiblePhotos)} // Open modal for remaining photos
+              onClick={() => openModal(maximumVisiblePhotos)} 
             >
               <Image
                 width={150}
