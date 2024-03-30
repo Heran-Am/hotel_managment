@@ -30,22 +30,22 @@ My experience on GitHub as a beginner has been enriching. Through exploration an
 
 #### 2. UML
 I have use three diagrams for this project and those diagrams are,
-- [Class diagram](UML/Class%20diagram.png).
-- [Sequence diagram](UML/Sequence%20Diagram.jpg)
-- [Usecase diagram](UML/Usecase%20diagram.png)
+- ![Class diagram](UML/Class%20diagram.png)
+- ![Sequence diagram](UML/Sequence%20Diagram.jpg)
+- ![Usecase diagram](UML/Usecase%20diagram.png)
 
 #### 3. DDD
 In my project, I embraced Domain-Driven Design(DDD)because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
 
-To kick off the project, I organized a brainstorming session[DDD](DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
+To kicked off the project, I organized a brainstorming session [brainstorming session](DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
 
-Next, I delved deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
+  Next, I dived deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
 
-With a solid grasp of domain ideas[DDD](DDD/domainideas.png), I focused on developing a 'ubiquitous language'—a [DDD](DDD/domainUbiquitious%20language.png) shared vocabulary for smooth communication and understanding among team members.
+With a solid grasp of domain ideas[DDD](DDD/domainideas.png), I focused on developing a 'ubiquitous language' [ubiquitous language](DDD/domainUbiquitious%20language.png) shared vocabulary for smooth communication and understanding among team members.
 
-To visualize our project's structure, I created a context map [DDD](DDD/content%20mapping.png), outlining key content and its relationships. This served as a visual roadmap for our development journey.
+To visualize our project's structure, I created a context map [context map](DDD/content%20mapping.png), outlining key content and its relationships. This served as a visual roadmap for our development journey.
 
-Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions.[DDD](DDD/core%20domain.png)
+Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions.[core domain](DDD/core%20domain.png)
 
 #### 4.Metrics
 These are the metrics listed below :[Matrics](Matrics/sonar.png) [Matrics](Matrics/sonarcl.png)  [Sonarcloud](https://sonarcloud.io/project/overview?id=Heran-Am_hotel_managment)
@@ -78,7 +78,7 @@ GitHub Actions streamlines Continuous Integration and Deployment (CI/CD) directl
 
 
 #### 8
-#### 9.IDE
+#### 9. IDE
 
 I've opted for Visual Studio as my IDE for this project for several reasons. It offers a rich set of features and tools essential for software development, such as code editing, debugging, testing, and version control integration. Visual Studio supports various programming languages, frameworks, and platforms, making it versatile and suitable for diverse projects.
 
