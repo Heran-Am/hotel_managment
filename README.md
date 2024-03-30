@@ -21,9 +21,10 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 #### Features:
 - search and view a room type.
 - choose a light or dark mode.
-- see the price of a room selected
-- make a discount based on the days
-  
+- see the price of a room selected.
+- make a discount based on the days.
+The Graphical User Interface FOR this project Hotel management system 
+#### Git 
 
 
 
