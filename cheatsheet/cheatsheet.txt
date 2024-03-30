@@ -1,0 +1,17 @@
+A cheat sheet to write clean code :
+
+1. Write meaningful names for variables, functions and classes. Don't write single-letter names. Use snake case convention.
+
+2. Write clear and concise comments which explain the logic of the code.
+
+3. Makes the code more readable. Avoid horizontal scrolling.
+
+4. Don't use multiple whitespaces after each other.Use exactly one whitespace before and after mathematical operators and one whitespace after commas. No whitespace before a comma. This has been followed in code too.
+
+5. Keep functions and methods small and focused, with a single, well-defined responsibility. If necessary split functions into several functions.
+
+6.  Create automated tests and execute them often while developing to ensure that your code operates as intended. This can help you find flaws early on and easier to refactor your code.
+
+7. Use a consistent style guide, to ensure that your code is readable and easily maintainable by others.
+
+8. Avoid code Duplication. Dont Repeat Yourself(DRY).	

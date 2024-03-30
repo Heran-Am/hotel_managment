@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 import Footer from './Footer';
 
+
 test('footer renders correctly with contact information and links', () => {
   const { getByText } = render(<Footer />);
   

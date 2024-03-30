@@ -15,6 +15,7 @@ type Slug = {
 };
 
 export type Room = {
+  id: any;
   _id: string;
   coverImage: ImageUrl; // Reusing ImageUrl type here
   description: string;
