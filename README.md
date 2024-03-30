@@ -35,6 +35,20 @@ I have use three diagrams for this project and those diagrams are, [UML](https:/
 - class diagram
 - sequence diagram and
 - Activity diagram
+
+#### 3. DDD
+In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
+
+To kick off the project, I organized a brainstorming session where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
+
+Next, I delved deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
+
+With a solid grasp of domain ideas, I focused on developing a 'ubiquitous language'—a shared vocabulary for smooth communication and understanding among team members.
+
+To visualize our project's structure, I created a context map, outlining key content and its relationships. This served as a visual roadmap for our development journey.
+
+Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions.
+
   
 
 
