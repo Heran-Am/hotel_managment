@@ -30,22 +30,22 @@ My experience on GitHub as a beginner has been enriching. Through exploration an
 
 #### 2. UML
 I have use three diagrams for this project and those diagrams are,
-- ![Class diagram](UML/Class%20diagram.png)
-- ![Sequence diagram](UML/Sequence%20Diagram.jpg)
-- ![Usecase diagram](UML/Usecase%20diagram.png)
+- [Class diagram](UML/Class%20diagram.png)
+- [Sequence diagram](UML/Sequence%20Diagram.jpg)
+- [Usecase diagram](UML/Usecase%20diagram.png)
 
 #### 3. DDD
-In my project, I embraced Domain-Driven Design(DDD)because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
+In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
 
 To kicked off the project, I organized a brainstorming session [brainstorming session](DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
 
   Next, I dived deep into understanding key domain concepts, aiming for clarity and insight. This informed better decision-making as we moved forward.
 
-With a solid grasp of domain ideas[DDD](DDD/domainideas.png), I focused on developing a 'ubiquitous language' [ubiquitous language](DDD/domainUbiquitious%20language.png) shared vocabulary for smooth communication and understanding among team members.
+With a solid grasp of domain ideas [DDD](DDD/domainideas.png), I focused on developing a 'ubiquitous language' [ubiquitous language](DDD/domainUbiquitious%20language.png) shared vocabulary for smooth communication and understanding among team members.
 
 To visualize our project's structure, I created a context map [context map](DDD/content%20mapping.png), outlining key content and its relationships. This served as a visual roadmap for our development journey.
 
-Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions.[core domain](DDD/core%20domain.png)
+Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions. [Core domain](DDD/core%20domain.png)
 
 #### 4.Metrics
 These are the metrics listed below :[Matrics](Matrics/sonar.png) [Matrics](Matrics/sonarcl.png)  [Sonarcloud](https://sonarcloud.io/project/overview?id=Heran-Am_hotel_managment)
@@ -56,6 +56,9 @@ Duplications(Duplicated Lines (%)0.0%):Duplications
 Security (0 Vulnerabilities)(A):Review
 Security Review(0 Security Hotspots)(A): Review
 Reliability Rating(0 Bugs)(A): Rating
+![Sonar](Matrics/sonar.png)
+![Sonarcloud](Matrics/sonarcl.png)
+
 
 #### 5. Clean Code Development
 Clean code Developement Cheatsheet is here and example from the code.
