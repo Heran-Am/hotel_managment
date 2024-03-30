@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 
 
 
@@ -23,6 +23,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - choose a light or dark mode.
 - see the price of a room selected.
 - make a discount based on the days.
+
+
 The Graphical User Interface FOR this project Hotel management system ![GUI]([image_url](https://github.com/Heran-Am/hotel_managment/blob/main/schemas/GUI%20diagram))
 #### Git 
 
