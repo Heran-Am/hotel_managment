@@ -80,7 +80,7 @@ Test: Unit and integration tests ensure the code's quality and reliability. It t
 GitHub Actions streamlines Continuous Integration and Deployment (CI/CD) directly from my repository. I configure the process using a YAML file called a workflow file located in the .github/workflows directory.
 
 
-#### 8 
+#### 8,
 I have imported a unit test module for unit testing. I have written three unit tests based the function of this code is to perform unit testing on a React component called Footer. Unit testing is a software testing technique where individual units or components of a software are tested in isolation to ensure they behave as expected.
 Imports: It imports necessary functions and components required for testing. In this case, it imports the render function from the @testing-library/react library, which is used to render React components for testing purposes, and 
 1, imports the Footer component that is to be tested.
