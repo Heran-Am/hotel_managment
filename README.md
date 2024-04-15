@@ -56,7 +56,7 @@ Duplications(Duplicated Lines (%)0.0%):Duplications
 Security (0 Vulnerabilities)(A):Review
 Security Review(0 Security Hotspots)(A): Review
 Reliability Rating(0 Bugs)(A): Rating
-![Sonar](Matrics/sonar.png)
+
 ![Screenshot 2024-03-30 170410](https://github.com/Heran-Am/hotel_managment/assets/149790376/a6ac2640-87f0-47a0-9f28-0af40b33c3a6)
 
 ![passed](https://github.com/Heran-Am/hotel_managment/assets/149790376/abf383c3-e54d-414f-9919-53d43d1c280b)
