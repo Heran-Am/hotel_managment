@@ -48,7 +48,8 @@ To visualize our project's structure, I created a context map [context map](DDD/
 Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions. [Core domain](DDD/core%20domain.png)
 
 ## 4.Metrics
-These are the metrics listed below :[Matrics](Matrics/sonar.png) [Matrics](Matrics/sonarcl.png)  [Sonarcloud](https://sonarcloud.io/project/overview?id=Heran-Am_hotel_managment)
+These are the metrics listed below :
+[Matrics](Matrics/sonar.png) [Matrics](Matrics/sonarcl.png)  [Sonarcloud] (https://sonarcloud.io/summary/new_code?id=Heran-Am_hotel_managment)
 
 Quality Gate Status(Passed):Status
 Maintainability(0 Code Smells): Maintainability Rating
