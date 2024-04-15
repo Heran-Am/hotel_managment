@@ -15,7 +15,7 @@ pnpm dev
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-#Features:
+# ** Features: ** 
 - search and view a room type.
 - choose a light or dark mode.
 - see the price of a room selected.
@@ -24,7 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 The Graphical User Interface FOR this project Hotel management system !
 
-## ** 1, Git **
+## 1. Git 
 
 My experience on GitHub as a beginner has been enriching. Through exploration and experimentation, I've delved into the world of version control, discovering the power of collaborative development. With each commit, push, and pull request, I've gained invaluable insights and honed my skills. As I continue this journey, I look forward to further growth and contribution within the vibrant GitHub community.
 
@@ -34,7 +34,7 @@ I have use three diagrams for this project and those diagrams are,
 - [Sequence diagram](UML/Sequence%20Diagram.jpg)
 - [Usecase diagram](UML/Usecase%20diagram.png)
 
-#### 3. DDD
+ ## 3. DDD
 In my project, I embraced Domain-Driven Design (DDD) because it emphasizes understanding the core domain, setting clear boundaries, and fostering collaboration through shared language.
 
 To kicked off the project, I organized a brainstorming session [brainstorming session](DDD/brainstorming.png) where we outlined our goals and features collaboratively. Techniques like mind mapping helped us generate ideas and prioritize requirements, laying the groundwork for our development plan.
@@ -47,7 +47,7 @@ To visualize our project's structure, I created a context map [context map](DDD/
 
 Finally, I distilled our core domain into a chart, providing a clear overview of its components and interactions. [Core domain](DDD/core%20domain.png)
 
-#### 4.Metrics
+## 4.Metrics
 These are the metrics listed below :[Matrics](Matrics/sonar.png) [Matrics](Matrics/sonarcl.png)  [Sonarcloud](https://sonarcloud.io/project/overview?id=Heran-Am_hotel_managment)
 
 Quality Gate Status(Passed):Status
@@ -60,7 +60,7 @@ Reliability Rating(0 Bugs)(A): Rating
 ![Sonarcloud](Matrics/sonarcl.png)
 
 
-#### 5. Clean Code Development
+## 5. Clean Code Development
 Clean code Developement Cheatsheet is here and example from the code.
 
 Comments/Doctstrings : Use Docstrings or comments to explain the function/methods. Docstrings
@@ -68,7 +68,7 @@ Comments/Doctstrings : Use Docstrings or comments to explain the function/method
 
 DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help prevent code duplication. In sonarcloud metrics, we can see no duplication Duplicated Lines 
 
-####6. and 7. Build and CI/CD
+## 6. and 7. Build and CI/CD
 
 
 I've set up GitHub Actions for my project to automate building and testing. Although tools like Ant, Maven, and Gradle are more common for Java projects, I found GitHub Actions suited my needs better.
@@ -82,7 +82,7 @@ Test: Unit and integration tests ensure the code's quality and reliability. It t
 GitHub Actions streamlines Continuous Integration and Deployment (CI/CD) directly from my repository. I configure the process using a YAML file called a workflow file located in the .github/workflows directory.
 
 
-#### 8. UnitTest
+## 8. UnitTest
 
 I have imported a unit test module for unit testing. I have written three unit tests based the function of this code is to perform unit testing on a React component called Footer. Unit testing is a software testing technique where individual units or components of a software are tested in isolation to ensure they behave as expected.
 Imports: It imports necessary functions and components required for testing. In this case, it imports the render function from the @testing-library/react library, which is used to render React components for testing purposes, and 
@@ -93,7 +93,7 @@ Imports: It imports necessary functions and components required for testing. In 
 3, Rendering: Within the test case, it renders the Footer component using the render function. This simulates how the component would be rendered in a real application.
 
 
-#### 9. IDE
+## 9. IDE
 
 I've opted for Visual Studio as my IDE for this project for several reasons. It offers a rich set of features and tools essential for software development, such as code editing, debugging, testing, and version control integration. Visual Studio supports various programming languages, frameworks, and platforms, making it versatile and suitable for diverse projects.
 
@@ -111,7 +111,7 @@ Here are some of my favorite shortcuts in Visual Studio:
 10.Ctrl + Shift + V: Open Markdown preview.
 These shortcuts help streamline my coding workflow and boost productivity in Visual Studio.
 
-#### 10.DSL
+## 10.DSL
 defines data structures that are crucial for managing hotel rooms and bookings in the systemand it to management to:
 
 1. Room Management:
@@ -126,7 +126,7 @@ It specifies the essential details required for a booking, including the user, r
 This type ensures that all relevant booking data is collected from the user and sent to the backend for processing.
 It acts as a standardized format for booking data, facilitating validation and interaction with a booking management system.
 
-#### 11.Functional Programming
+## 11.Functional Programming
 
 This Functional Programming defines several functionalities for managing hotel room availability based on a Domain Specific Language (DSL) configuration file. 
 
