@@ -24,7 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 The Graphical User Interface FOR this project Hotel management system !
 
-## Git 
+## ** Git **
 
 My experience on GitHub as a beginner has been enriching. Through exploration and experimentation, I've delved into the world of version control, discovering the power of collaborative development. With each commit, push, and pull request, I've gained invaluable insights and honed my skills. As I continue this journey, I look forward to further growth and contribution within the vibrant GitHub community.
 
