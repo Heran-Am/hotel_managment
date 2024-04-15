@@ -49,7 +49,7 @@ Finally, I distilled our core domain into a chart, providing a clear overview of
 
 ## 4.Metrics
 These are the metrics listed below :
-[Matrics](Matrics/sonar.png) [Matrics](Matrics/sonarcl.png)  [Sonarcloud](https://sonarcloud.io/summary/new_code?id=Heran-Am_hotel_managment)
+
 
 Quality Gate Status(Passed):[Status](https://sonarcloud.io/summary/new_code?id=Heran-Am_hotel_managment)
 Maintainability(0 Code Smells): Maintainability Rating
