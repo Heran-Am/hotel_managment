@@ -58,6 +58,8 @@ Security Review(0 Security Hotspots)(A): Review
 Reliability Rating(0 Bugs)(A): Rating
 ![Sonar](Matrics/sonar.png)
 ![Sonarcloud]([Matrics/sonarcl.png](https://sonarcloud.io/project/overview?id=Heran-Am_hotel_managment))
+![passed](https://github.com/Heran-Am/hotel_managment/assets/149790376/27d488ba-4180-4e11-b578-b738b7821d87)
+
 
 
 ## 5. Clean Code Development
