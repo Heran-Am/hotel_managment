@@ -69,7 +69,7 @@ Reliability Rating(0 Bugs)(A): [Rating](https://sonarcloud.io/component_measures
 
 
 ## 5. Clean Code Development
-Clean code Developement Cheatsheet is here and example from the code.
+Clean code Developement [Cheatsheet]() is here and example from the code.
 
 Comments/Doctstrings : Use Docstrings or comments to explain the function/methods. Docstrings
 
