@@ -69,6 +69,8 @@ Comments/Doctstrings : Use Docstrings or comments to explain the function/method
 DRY (Don't Repeat Yourself): Reusable functions, modules, or libraries can help prevent code duplication. In sonarcloud metrics, we can see no duplication Duplicated Lines 
 
 ####6. and 7. Build and CI/CD
+
+
 I've set up GitHub Actions for my project to automate building and testing. Although tools like Ant, Maven, and Gradle are more common for Java projects, I found GitHub Actions suited my needs better.
 
 Here's how it works:
