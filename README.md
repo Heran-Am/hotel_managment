@@ -52,7 +52,8 @@ These are the metrics listed below :
 
 
 Quality Gate Status(Passed):[Status](https://sonarcloud.io/summary/new_code?id=Heran-Am_hotel_managment)
-Maintainability(0 Code Smells): Maintainability Rating
+
+Maintainability(0 Code Smells):[Maintainability Rating](https://sonarcloud.io/component_measures?metric=Maintainability&id=Heran-Am_hotel_managment)
 Duplications(Duplicated Lines (%)0.0%):Duplications
 Security (0 Vulnerabilities)(A):Review
 Security Review(0 Security Hotspots)(A): Review
